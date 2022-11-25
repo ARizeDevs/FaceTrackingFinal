@@ -22,7 +22,8 @@ function main() {
     specWebARRocksFace: {
       NNCPath: '../../neuralNets/NN_GLASSES_9.json',
       scanSettings: {
-        threshold: 0.8,
+        threshold: 0.5,
+        nScaleLevels: 2,
       },
     },
 
