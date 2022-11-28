@@ -12,7 +12,8 @@ function main() {
     specWebARRocksFace: {
       NNCPath: '../../neuralNets/NN_HEADPHONESL_2.json',
       scanSettings: {
-        threshold: 0.6,
+        threshold: 0.5,
+        nScaleLevels: 2,
       },
     },
 
